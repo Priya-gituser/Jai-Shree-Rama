@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+ 
+  
+  .header-container {
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 5px solid white;
+    background-color: rgb(241, 135, 1);
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .navbar-container {
+    border: 2px solid white;
+    background-color: rgb(241, 135, 1);
+    font-family: cursive;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+
+  }
+  
+  a:hover{
+  border: 3px solid white;
+  }
+  a:active {
+    background-color: rgb(77, 0, 231);
+  }
+  
+  
+  
+  
+  
+  /* --------------------------------HEADER---------------------- */
+  
+  .aboutcontainer {
+    margin: 15px 5px;
+  }
+  
+  .aboutcontainer {
+    background-color: rgb(241, 135, 1);
+    color: white;
+    border: 5px solid white;
+    font-family: cursive;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+      rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+  }
+  
+  .aboutcontainer img {
+    height: 25vh;
+    width: 30vw;
+    border-radius: 5px;
+  }
+  .carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(241, 135, 1);
+    color: white;
+    border: 5px solid white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+      rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin: 15px 5px;
+    border-radius: 10px;
+  }
+  
+  .carousel-inner .carousel-item > img {
+    height: 60vh;
+  }
+  
+  .carousel-inner .carousel-caption {
+    font-family: cursive;
+  }
+  
+  #hanuman-chalisa{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    height: fit-content;
+     background-color: rgb(241, 135, 1);
+     border: 5px solid white;
+
+      }
+
+  /* _____________________________________________________ */
+  
+  .footer > .card {
+    font-family: cursive;
+    background-color: rgb(241, 135, 1);
+    color: white;
+    margin: 20px  5px 5px; 
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  
+  
+  
